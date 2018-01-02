@@ -1,0 +1,27 @@
+[
+	{
+		"id":"1",
+		"name":"寻找身体",
+		"img":"man-ban01.jpg"
+	},
+	{
+		"id":"2",
+		"name":"讲谈社来啦",
+		"img":"man-ban02.jpg"
+	},
+	{
+		"id":"3",
+		"name":"少年jump！中日同步！",
+		"img":"man-ban03.jpg"
+	},
+	{
+		"id":"4",
+		"name":"排球少年！",
+		"img":"man-ban04.jpg"
+	},
+	{
+		"id":"5",
+		"name":"魔卡少女樱",
+		"img":"man-ban05.jpg"
+	}
+]

@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>排行榜</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/ranking.css" />
+		<link rel="stylesheet" href="css/ranking-sub.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/ranking.js" ></script>
+	</head>
+	<body>
+		<!--导航-->
+		<div class="man-nav-box">
+			<div class="man-nav w clearfix">
+				<div class="man-nav-log">
+					<a href="javascript:;"></a>
+				</div>
+				<ul class="clearfix man-nav-ul fl">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="javascript:;">全部作品</a>
+					</li>
+					<li>
+						<a href="manga.html">日漫</a>
+					</li>
+					<li>
+						<a href="fiction.html" >轻小说</a>
+					</li>
+					<li>
+						<a href="javascript:;">福利社</a>
+					</li>
+					<li>
+						<a href="javascript:;">资讯</a>
+					</li>
+					<li>
+						<a href="cartoons.html">动画</a>
+					</li>
+					<li>
+						<a href="ranking.html"  class="man-nav-active">排行榜</a>
+					</li>
+					<li>
+						<a href="person.html">个人中心</a>
+					</li>
+					<li>
+						<a href="javascript:;">手机版</a>
+					</li>
+				</ul>
+			</div>
+			<!--下边bg-->
+			<div class="man-nav-bg"></div>
+		</div>
+		<!--内容-->
+		<div class="ranking-content-box">
+			<div class="ranking-con w clearfix">
+				<!--左-->
+				<div class="ranking-con-fl">
+					<h2>排行榜</h2>
+					<div class="ranking-con-fl-tab clearfix">
+						<a href="javascript:;" class="ranking-con-fl-list-active">全部</a>
+						<a href="javascript:;">付费</a>
+					</div>
+					<div class="ranking-con-fl-list">
+						<span>作品榜</span>
+						<ul>
+							<li><a href="ranking.html" class="ranking-con-fl-list-active">全部榜单</a></li>
+							<li><a href="javascript:;">月票榜</a></li>
+							<li><a href="javascript:;">作品打赏榜</a></li>
+							<li><a href="javascript:;">人气总榜</a></li>
+							<li><a href="javascript:;">畅销榜</a></li>
+							<li><a href="javascript:;">上升最快榜</a></li>
+							<li class="ranking-con-fl-list-last">
+								<em>分类榜</em>
+								<a href="javascript:;">少年漫画榜</a>
+								<a href="javascript:;">少女漫画榜</a>
+								<a href="javascript:;">热血·冒险榜</a>
+								<a href="javascript:;">搞笑·四格榜</a>
+								<a href="javascript:;">恐怖·灵异榜</a>
+								<a href="javascript:;">侦探·推理榜</a>
+							</li>
+						</ul>
+						<span>用户榜</span>
+						<ul>
+							<li><a href="javascript:;">月票贡献榜</a></li>
+							<li><a href="javascript:;">打赏大豪</a></li>
+						</ul>
+					</div>
+				</div>
+				<!--右-->
+				<div class="ranking-con-fr">
+					<!--月票榜-->
+					<div class="ranking-month">
+						<div class="ranking-month-tit">
+							<a href="javascript:;">月票榜</a>
+						</div>
+						<div class="ranking-month-list">
+							<div class="ranking-month-list-tit clearfix">
+								<p>
+									<b>作品</b>
+									<em>月票数</em>
+									<span>折现</span>
+								</p>
+								<p>
+									<b>作品</b>
+									<em>月票数</em>
+									<span>折现</span>
+								</p>
+								<p>
+									<b>作品</b>
+									<em>月票数</em>
+									<span>折现</span>
+								</p>
+							</div>
+							<div class="ranking-month-list-con clearfix">
+								<ul class="ranking-month-list1">
+								</ul>
+								<ul class="ranking-month-list2">
+								</ul>
+								<ul class="ranking-month-list3">
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--作品打赏-->
+					<div class="ranking-reward clearfix">
+						<!--左-->
+						<div class="ranking-reward-fl">
+							<div class="ranking-reward-fl-tit">
+								<a href="javascript:;">作品打赏榜</a>
+							</div>
+							<p class="ranking-reward-fl-p">
+								<b>作品名</b>
+								<em>作者</em>
+								<span>粉丝英雄（打赏过万点券的前三名用户）</span>
+							</p>
+							<div class="ranking-reward-fl-list">
+								<ul></ul>
+							</div>
+						</div>
+						<!--右-->
+						<div class="ranking-reward-fr">
+							<div class="ranking-reward-fr-tit">
+								<a href="javascript:;">大豪打赏榜</a>
+							</div>
+							<p class="ranking-reward-fr-p">
+								<b>排名</b>
+								<em>昵称</em>
+								<span>累积打赏（点券）</span>
+							</p>
+							<ul class="ranking-reward-fr-list">
+								
+							</ul>
+						</div>
+					</div>
+					<!--排行榜-->
+					<div class="ranking-ran-list clearfix">
+						<!--人气总榜-->
+						<div class="ranking-ran-list-eq">
+							<div class="ranking-ran-list-eq-tit">
+								<a href="javascript:;">人气总榜</a>
+							</div>
+							<div class="ranking-ran-list-eq-con ranking-ran-list-eq-con-1">
+								<ul></ul>
+							</div>
+						</div>
+						<!--畅销榜-->
+						<div class="ranking-ran-list-eq">
+							<div class="ranking-ran-list-eq-tit">
+								<a href="javascript:;">畅销榜</a>
+							</div>
+							<div class="ranking-ran-list-eq-con ranking-ran-list-eq-con-2">
+								<ul></ul>
+							</div>
+						</div>
+						<!--上升最快榜-->
+						<div class="ranking-ran-list-eq">
+							<div class="ranking-ran-list-eq-tit">
+								<a href="javascript:;">上升最快榜</a>
+							</div>
+							<div class="ranking-ran-list-eq-con ranking-ran-list-eq-con-3">
+								<ul></ul>
+							</div>
+						</div>
+					</div>
+					<!--广告-->
+					<div class="ranking-ad">
+						<a href="javascript:;">
+							<img src="images/ranking-ad01.jpg"/>
+						</a>
+						<a href="javascript:;">
+							<img src="images/ranking-ad02.jpg"/>
+						</a>
+					</div>
+					<!--分类排行榜-->
+					<div class="ranking-clas">
+						<div class="ranking-clas-tit">
+							<ul class="clearfix">
+								<li class="ranking-clas-tit-active">
+									<a href="javascript:;">人气周榜</a>
+								</li>
+								<li>
+									<a href="javascript:;">评分周榜</a>
+								</li>
+								<li>
+									<a href="javascript:;">收藏周榜</a>
+								</li>
+								<li>
+									<a href="javascript:;">红票周榜</a>
+								</li>
+								<li>
+									<a href="javascript:;">月票排行</a>
+								</li>
+								<li>
+									<a href="javascript:;">打赏排行</a>
+								</li>
+							</ul>
+						</div>
+						<div class="ranking-clas-con">
+							<!--人气-->
+							<div class="ranking-clas-list clearfix">
+								<!--少年-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">少年漫画</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con1">
+										<ul></ul>
+									</div>
+								</div>
+								<!--少女-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">少女漫画</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con2">
+										<ul></ul>
+									</div>
+								</div>
+								<!--热血·冒险-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">热血·冒险</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con3">
+										<ul></ul>
+									</div>
+								</div>
+								<!--搞笑·四格-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">搞笑·四格</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con4">
+										<ul></ul>
+									</div>
+								</div>
+								<!--恐怖·灵异-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">恐怖·灵异</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con5">
+										<ul></ul>
+									</div>
+								</div>
+								<!--侦探·推理-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">侦探·推理</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con6">
+										<ul></ul>
+									</div>
+								</div>
+							</div>
+							<!--平分-->
+							<div class="ranking-clas-list clearfix">
+								<!--少年-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">少年漫画</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con1">
+										<ul></ul>
+									</div>
+								</div>
+								<!--少女-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">少女漫画</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con3">
+										<ul></ul>
+									</div>
+								</div>
+								<!--热血·冒险-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">热血·冒险</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con2">
+										<ul></ul>
+									</div>
+								</div>
+								<!--搞笑·四格-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">搞笑·四格</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con4">
+										<ul></ul>
+									</div>
+								</div>
+								<!--恐怖·灵异-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">恐怖·灵异</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con6">
+										<ul></ul>
+									</div>
+								</div>
+								<!--侦探·推理-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">侦探·推理</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con5">
+										<ul></ul>
+									</div>
+								</div>
+							</div>
+							<!--收藏-->
+							<div class="ranking-clas-list clearfix">
+								<!--少年-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">少年漫画</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con1">
+										<ul></ul>
+									</div>
+								</div>
+								<!--少女-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">少女漫画</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con6">
+										<ul></ul>
+									</div>
+								</div>
+								<!--热血·冒险-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">热血·冒险</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con2">
+										<ul></ul>
+									</div>
+								</div>
+								<!--搞笑·四格-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">搞笑·四格</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con4">
+										<ul></ul>
+									</div>
+								</div>
+								<!--恐怖·灵异-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">恐怖·灵异</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con3">
+										<ul></ul>
+									</div>
+								</div>
+								<!--侦探·推理-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">侦探·推理</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con5">
+										<ul></ul>
+									</div>
+								</div>
+							</div>
+							<!--红票-->
+							<div class="ranking-clas-list clearfix">
+								<!--少年-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">少年漫画</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con6">
+										<ul></ul>
+									</div>
+								</div>
+								<!--少女-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">少女漫画</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con3">
+										<ul></ul>
+									</div>
+								</div>
+								<!--热血·冒险-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">热血·冒险</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con2">
+										<ul></ul>
+									</div>
+								</div>
+								<!--搞笑·四格-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">搞笑·四格</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con4">
+										<ul></ul>
+									</div>
+								</div>
+								<!--恐怖·灵异-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">恐怖·灵异</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con1">
+										<ul></ul>
+									</div>
+								</div>
+								<!--侦探·推理-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">侦探·推理</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con5">
+										<ul></ul>
+									</div>
+								</div>
+							</div>
+							<!--月票-->
+							<div class="ranking-clas-list clearfix">
+								<!--少年-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">少年漫画</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con1">
+										<ul></ul>
+									</div>
+								</div>
+								<!--少女-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">少女漫画</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con6">
+										<ul></ul>
+									</div>
+								</div>
+								<!--热血·冒险-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">热血·冒险</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con2">
+										<ul></ul>
+									</div>
+								</div>
+								<!--搞笑·四格-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">搞笑·四格</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con4">
+										<ul></ul>
+									</div>
+								</div>
+								<!--恐怖·灵异-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">恐怖·灵异</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con3">
+										<ul></ul>
+									</div>
+								</div>
+								<!--侦探·推理-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">侦探·推理</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con5">
+										<ul></ul>
+									</div>
+								</div>
+							</div>
+							<!--打赏-->
+							<div class="ranking-clas-list clearfix">
+								<!--少年-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">少年漫画</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con1">
+										<ul></ul>
+									</div>
+								</div>
+								<!--少女-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">少女漫画</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con6">
+										<ul></ul>
+									</div>
+								</div>
+								<!--热血·冒险-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">热血·冒险</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con2">
+										<ul></ul>
+									</div>
+								</div>
+								<!--搞笑·四格-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">搞笑·四格</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con4">
+										<ul></ul>
+									</div>
+								</div>
+								<!--恐怖·灵异-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">恐怖·灵异</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con6">
+										<ul></ul>
+									</div>
+								</div>
+								<!--侦探·推理-->
+								<div class="ranking-clas-list-eq">
+									<div class="ranking-clas-list-eq-tit">
+										<a href="javascript:;">侦探·推理</a>
+									</div>
+									<div class="ranking-clas-list-eq-con ranking-clas-list-eq-con3">
+										<ul></ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="in-bottom-box">
+			<!--波纹-->
+			<div class="in-bottom-bg"></div>
+			<div class="in-bottom w clearfix">
+				<ul class="clearfix in-bottom-ul">
+					<li>
+						<img src="images/in-bottom01.jpg" />
+						<p>腾讯动漫客户端</p>
+					</li>
+					<li>
+						<img src="images/in-bottom02.jpg" />
+						<p>腾讯动漫微信</p>
+					</li>
+				</ul>
+				<p class="in-bottom-text1 clearfix">
+					<a href="javascript:;">网站地图</a>
+					<a href="javascript:;">站内帮助</a>
+					<a href="javascript:;">反馈通道</a>
+					<a href="javascript:;">官方微博</a>
+					<a href="javascript:;">邮箱推荐</a>
+					<a href="javascript:;">服务协议</a>
+					<a href="javascript:;">侵权反馈指引</a>
+					<a href="javascript:;">联系方式：ac_copyright@qq.com</a>
+				</p>
+				<p class="in-bottom-text1 clearfix">
+					<span>Copyright©1998 - 2017 Tencent. All Rights Reserved</span>
+				</p>
+				<p class="in-bottom-text1 clearfix">
+					<span>腾讯公司 版权所有</span>
+				</p>
+			</div>
+		</div>
+	</body>
+	
+
+	<script>
+		$(".ranking-con-fl-list a").eq(1).on("click",function(){
+			$(".ranking-con-fr").load("ranking-sub-list1.html");
+		});
+		$(".ranking-con-fl-list a").eq(2).on("click",function(){
+			$(".ranking-con-fr").load("ranking-sub-list2.html");
+		});
+		$(".ranking-con-fl-list a").eq(3).on("click",function(){
+			$(".ranking-con-fr").load("ranking-sub-list3.html");
+		});
+		$(".ranking-con-fl-list a").eq(4).on("click",function(){
+			$(".ranking-con-fr").load("ranking-sub-list4.html");
+		});
+		$(".ranking-con-fl-list a").eq(5).on("click",function(){
+			$(".ranking-con-fr").load("ranking-sub-list5.html");
+		});
+		$(".ranking-con-fl-list a").eq(6).on("click",function(){
+			$(".ranking-con-fr").load("ranking-sub-list6.html");
+		});
+		
+		
+		$(".ranking-con-fl-list a").on("click",function(){
+			$(".ranking-con-fl-list a").removeClass("ranking-con-fl-list-active");
+			$(this).addClass("ranking-con-fl-list-active");
+		});
+
+		
+		$(".ranking-clas-tit li").on("click",function(){
+			$(".ranking-clas-tit li").removeClass("ranking-clas-tit-active");
+			$(this).addClass("ranking-clas-tit-active");
+			$(".ranking-clas-list").hide();
+			$(".ranking-clas-list").eq($(".ranking-clas-tit li").index($(this))).show();
+		});
+	</script>
+</html>

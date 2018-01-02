@@ -1,0 +1,414 @@
+/*导航*/
+.man-nav-box{
+	position: relative;
+	margin-bottom: 25px;
+	height: 56px;
+	background-color: white;
+}
+.man-nav-log{
+	float: left;
+	width: 130px;
+    height: 52px;
+}
+.man-nav-log a{
+	display: block;
+	width: 110px;
+    height: 52px;
+    background: url(../images/ac_global.png)no-repeat 0 -337px;
+}
+
+.man-nav-ul li{
+	float: left;
+}
+.man-nav-ul li a{
+	display: block;
+	padding: 0 20px;
+	line-height: 52px;
+	font-size: 14px;
+}
+.man-nav-active{
+	color: #fff !important;
+    background-color: #fa9144;
+}
+.man-nav-bg{
+	position: absolute;
+	bottom: -12px;
+	width: 100%;
+	height: 16px;
+	background: url(../images/page_rank_sprite.png)repeat-x;
+}
+/*轮播*/
+.man-ban-fl{
+	float: left;
+	position: relative;
+	width: 773px;
+	height: 297px;
+    border: 6px solid #333;
+    overflow: hidden;
+}
+/*.man-banFl-cont{
+	height: 297px;
+}*/
+.man-banFl-cont ul{
+	height: 297px;
+}
+.man-banFl-cont li{
+	position: absolute;
+	display: none;
+}
+.man-banFl-cont li:nth-of-type(1){
+	display: block;
+}
+.man-banFl-cont-img{
+	display: block;
+	height: 297px;
+}
+.man-banFl-cont-text{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 58px;
+	padding-left: 20px;
+	line-height: 58px;
+	margin-top: -58px;
+	color: white !important;
+	font-size: 20px;
+	background: url(../images/bg_blank.png)repeat;
+}
+.man-banFl-btn{
+	position: absolute;
+	height: 49px;
+	bottom: 0;
+	right: 49px;
+}
+
+.man-banFl-btn a{
+	display: block;
+	float: left;
+	width: 65px;
+    height: 40px;
+    margin: 0 5px;
+    border: 1px solid #636363;
+    overflow: hidden;
+}
+.man-banFl-btn-active{
+	border-color: white !important;
+}
+.man-ban-fr{
+	float: right;
+	position: relative;
+	width: 394px;
+    height: 297px;
+    border: 6px solid #333;
+    overflow: hidden;
+}
+.man-banFr-tit{
+	width: 100%;
+	height: 58px;
+	background: url(../images/japan_all.png)no-repeat -47px -632px;
+}
+.man-btnFr-cont{
+	padding-top: 26px;
+	padding-left: 25px;
+	height: 172px;
+}
+.man-btnFr-cont li{
+	position: absolute;
+	display: none;
+	overflow: hidden;
+}
+.man-btnFr-cont li:nth-of-type(1){
+	display: block;
+}
+.man-btnFr-cont-text{
+	float: left;
+	width: 100px;
+	margin: 0 7px;
+	background: #f3f3f3;
+	border-bottom: 2px solid #0b0b0b;
+}
+.man-btnFr-cont-text:hover{
+	opacity: 0.9;
+}
+.man-btnFr-cont-text-img{
+	display: block;
+	width: 100px;
+	height: 131px;
+	overflow: hidden;
+}
+.man-btnFr-cont-text-img img{
+	width: 100px;
+	height: 131px;
+}
+.man-btnFr-btn{
+	display: block;
+	position: absolute;
+	color: #333;
+    font-size: 40px;
+}
+.man-btnFr-btn-l{
+	left: 0;
+	top: 50%;
+}
+.man-btnFr-btn-r{
+	right: 0;
+	top: 50%;
+}
+/*正版漫画*/
+.man-cartoon{
+	height: 65px;
+}
+.man-cartoon>h2{
+	float: left;
+	width: 120px;
+	line-height: 58px;
+	height: 58px;
+	font-size: 30px;
+	color: black;
+	border-bottom: 7px solid #333;
+	overflow: hidden;
+}
+.man-cartoon-fr{
+	float: left;
+	width: 1080px;
+	height: 65px;
+	background: url(../images/all10.png)repeat-x 0 58px;
+}
+.man-cartoon-fr h3{
+	float: left;
+	margin-top: 23px;
+	margin-left: 10px;
+	width: 320px;
+	height: 20px;
+	background: url(../images/japan_all.png)no-repeat -45px -582px;
+}
+.man-cartoon-fr-text{
+	float: right;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.man-cartoon-fr-text a{
+	display: block;
+	float: left;
+	margin-left: 10px;
+	width: 94px;
+	height: 30px;
+	background: url(../images/japan_all.png)no-repeat;
+}
+.man-cartoon-fr-text a:nth-of-type(1){
+	background-position: -45px -411px;
+}
+.man-cartoon-fr-text a:nth-of-type(2){
+	background-position: -45px -447px;
+}
+.man-cartoon-fr-text a:nth-of-type(3){
+	background-position: -45px -483px;
+}
+.man-cartoon-fr-text a:nth-of-type(4){
+	background-position: -174px -407px;
+}
+/*看漫画*/
+.man-lookCartoon{
+	height: 73px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #333;
+}
+.man-lookCartoon h2{
+	float: left;
+	width: 120px;
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 73px;
+	color: white;
+	text-align: center;
+	background-color: #cd2b00;
+}
+.man-lookCartoon-fr{
+	float: left;
+	padding-top: 5px;
+	height: 68px;
+	width: 1080px;
+	background-color: #404040;
+}
+.man-lookCartoon-fr p{
+	height: 30px;
+	line-height: 30px;
+}
+.man-lookCartoon-fr p a{
+	color: white;
+	margin-left: 10px;
+}
+.man-lookCartoon-fr p a:hover{
+	color: red;
+}
+.man-lookCartoon-fr p strong{
+	font-size: 14px;
+	padding-left: 10px;
+}
+.man-lookCartoon-fr-text strong{
+	color: #cd2b00;
+}
+.man-lookCartoon-fr-text2 strong{
+	color: #56b905;
+}
+/*漫画列表*/
+.man-cartoon-tit{
+	height: 33px;
+	line-height: 33px;
+}
+.man-cartoon-tit h3{
+	float: left;
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+	line-height: 33px;
+}
+.man-cartoon-tit ul{
+	float: left;
+	margin-left: 20px;
+	overflow: hidden;
+}
+.man-cartoon-tit li{
+	float: left;
+	line-height: 33px;
+}
+.man-cartoon-tit li a{
+	padding: 0 17px;
+	font-size: 14px;
+	border-right: 1px solid #333;
+}
+.man-cartoon-tit-active{
+	background-color: #333;
+}
+.man-cartoon-tit-active a{
+	color: white;
+	font-weight: bold;
+	border-left: none;
+}
+
+.man-cartoonList-text{
+	display: none;
+	margin-top: 15px;
+	height: 962px;
+	overflow: hidden;
+}
+.man-cartoonList-text:nth-of-type(1){
+	display: block;
+}
+.man-cartoonList-text ul{
+	height: 962px;
+	width: 1270px;
+	margin-left: -70px;
+	overflow: hidden;
+}
+.man-cartoonList-text li{
+	float: left;
+	margin: 10px 0px 10px 70px;
+    width: 352px;
+    height: 205px;
+    border-bottom: 2px solid #373737;
+    background-color: white;
+}
+.man-cartoonList-text-img{
+	position: relative;
+}
+.man-cartoonList-text-img>a{
+	display: block;
+	position: relative;
+	width: 352px;
+	height: 157px;
+}
+.man-cartoonList-text-name{
+	position: absolute;
+	width: 332px;
+    height: 30px;
+    padding: 0 10px;
+    font-weight: bold;
+    line-height: 30px;
+    background: #404040;
+    left: 0;
+    bottom: 0;
+}
+.man-cartoonList-text-name a span{
+	color: white;
+}
+.man-cartoonList-text-name a:nth-of-type(1){
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: white;
+}
+.man-cartoonList-text-name a:nth-of-type(2){
+	display: block;
+	float: right;
+	color: #ee3200;
+}
+.man-cartoonList-up{
+	margin-top: 16px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.man-cartoonList-up a{
+	margin: 0 5px;
+}
+.man-cartoonList-text-img-bg{
+	display: block;
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+}
+/*底部*/
+.in-bottom-box{
+	position: relative;
+	margin-top: 35px;
+	padding-top: 35px;
+	background-color: #f69057;
+}
+.in-bottom-bg{
+	position: absolute;
+	width: 100%;
+	height: 10px;
+	top: -10px;
+	left: 0;
+	background: url(../images/ac_global.png)repeat-x 0 -703px;
+}
+.in-bottom{
+	height: 215px;
+	background: url(../images/ac_footer_bg.jpg)no-repeat 50% 0;
+}
+.in-bottom-ul{
+	width: 334px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.in-bottom-ul li{
+	float: left;
+	width: 98px;
+	text-align: center;
+	color: white;
+	padding: 0 34px
+}
+.in-bottom-ul li img{
+	width: 74px;
+    height: 74px;
+}
+.in-bottom-ul li p{
+	height: 40px;
+	line-height: 40px;
+}
+.in-bottom-text1{
+	line-height: 22px;
+	text-align: center;
+	color: white;
+}
+.in-bottom-text1 a{
+	line-height: 22px;
+	color: white;
+	margin: 0 5px;
+}

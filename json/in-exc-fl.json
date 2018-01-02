@@ -1,0 +1,26 @@
+[
+	{
+		"id":"1",
+		"name":"狐妖小红娘",
+		"images":"in-excs01.png",
+		"up":"64"
+	},
+	{
+		"id":"2",
+		"name":"妖怪名单",
+		"images":"in-excs02.png",
+		"up":"30"
+	},
+	{
+		"id":"3",
+		"name":"降灵记",
+		"images":"in-excs03.png",
+		"up":"16"
+	},
+	{
+		"id":"4",
+		"name":"灵契",
+		"images":"in-excs04.png",
+		"up":"30"
+	}
+]

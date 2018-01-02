@@ -1,0 +1,62 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: url(../img/bodyColor.png);
+	color: #666;
+	font-size: 12px;
+}
+ul,
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #666;
+}
+a:visited {
+	
+}
+a:hover {
+	color: #fa8729;
+} 
+a:active {
+	color: #666;
+}
+em,i{
+	font-style: normal;
+}
+img {
+	vertical-align: top;
+	border: 0;
+}
+input,button,textarea {
+	border: none;
+	outline: none;
+}
+/*清除浮动*/
+.clearfix:after,
+.clearfix:before {
+	content: " ";
+	display: block;
+	clear: both;/*清除左右两边浮动。*/
+}
+.clearfix {
+	*zoom: 1;
+}
+/*左浮动*/
+.fl {
+	float: left;
+}
+/*右浮动*/
+.fr {
+	float: right;
+}
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}

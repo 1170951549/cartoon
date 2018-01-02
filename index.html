@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="in-top-box">
+			<div class="in-top w clearfix">
+				<!--logo-->
+				<div class="top-logo fl">
+					<a href="javascript:;" title="">
+						<img src="images/ac_logo.png" />
+					</a>
+				</div>
+				<!--搜索-->
+				<div class="top-seek-box fl">
+					<form class="top-seek-form clearfix">
+						<input type="text" class="top-seek" placeholder="请输入作品名称"/>
+						<input type="submit" class="top-sub" value=""/>
+					</form>
+					<!--搜索条目-->
+					<div class="seek-list">
+						<strong>大家都在搜</strong>
+						<ul></ul>
+					</div>
+					<ul class="top-seek-ul clearfix"></ul>
+				</div>
+				<!--发现有趣-->
+				<div class="top-download fl">
+					<a href="javascript:;" title="">
+						<img src="images/download.gif" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--导航-->
+		<div class="in-nav-box">
+			<div class="in-nav w clearfix">
+				<ul class="clearfix">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="manga.html" target="_blank">日漫</a>
+					</li>
+					<li>
+						<a href="fiction.html"  target="_blank">轻小说</a>
+					</li>
+					<li>
+						<a href="javascript:;">福利社</a>
+					</li>
+					<li>
+						<a href="javascript:;">资讯</a>
+					</li>
+					<li>
+						<a href="cartoons.html">动画</a>
+					</li>
+					<li>
+						<a href="ranking.html">排行榜</a>
+					</li>
+					<li>
+						<a href="person.html">个人中心</a>
+					</li>
+					<li>
+						<a href="javascript:;">手机版</a>
+					</li>
+				</ul>
+				<div class="in-nav-right clearfix">
+					<div class="in-nav-right-btn">
+						<a href="javascript:;" class="in-nav-right-a">作者追梦计划</a>
+						<span>|</span>
+						<a href="javascript:;" class="in-nav-right-a">作品上传</a>
+					</div>
+					<a href="javascript:;"class="in-nav-rec">
+						<i></i>
+						点卷充值
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--全部分类-->
+		<div class="in-allClass-box">
+			<div class="in-allClass w">
+				<ul class="clearfix">
+					<li class="in-allClass-first"><a href="javascript:;">【血色苍穹动画】</a></li>
+					<li><a href="javascript:;">玄幻</a></li>
+					<li><a href="javascript:;">都市</a></li>
+					<li><a href="javascript:;">恐怖</a></li>
+					<li><a href="javascript:;">校园</a></li>
+					<li><a href="javascript:;">悬疑</a></li>
+					<li><a href="javascript:;">科幻</a></li>
+					<li><a href="javascript:;">生活</a></li>
+					<li><a href="javascript:;">热血</a></li>
+					<li><a href="javascript:;">爆笑</a></li>
+					<li><a href="javascript:;">纯爱</a></li>
+					<li><a href="javascript:;">推理</a></li>
+					<li><a href="javascript:;">魔幻</a></li>
+					<li><a href="javascript:;">历史</a></li>
+					<li><a href="javascript:;">少儿</a></li>
+					<li><a href="javascript:;">动作</a></li>
+					<li><a href="javascript:;">战争</a></li>
+					<li><a href="javascript:;">彩虹</a></li>
+					<li><a href="javascript:;">萌系</a></li>
+					<li><a href="javascript:;">穿越</a></li>
+					<li><a href="javascript:;">后宫</a></li>
+					<li><a href="javascript:;">唯美</a></li>
+					<li><a href="javascript:;">完结</a></li>
+					<li class="in-allClass-last">
+						<a href="javascript:;">
+							<i></i>
+							全部分类
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--独家动画-->
+		<div class="in-alone-box">
+			<div class="in-alone w">
+				<ul class="clearfix">
+					<li class="in-alone-first">
+						<span>独家动画</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--轮播-->
+		<div class="in-banner-box">
+			<div class="in-banner w clearfix">
+				<!--左-->
+				<div class="in-banner-fl fl">
+					<ul>
+					</ul>
+					<a href="javascript:;" class="in-banner-btn in-banner-btnL"></a>
+					<a href="javascript:;" class="in-banner-btn in-banner-btnR"></a>
+				</div>
+				<!--右-->
+				<div class="in-banner-fr fr">
+					<div class="in-ban-frTop clearfix">
+						<h2>热门排行</h2>
+						<ul class="clearfix">
+							<li>
+								<a href="javascript:;" class="ban-active">国漫</a>
+							</li>
+							<li>
+								<a href="javascript:;">日漫</a>
+							</li>
+							<li>
+								<a href="javascript:;">综合</a>
+							</li>
+						</ul>
+					</div>
+					<div class="in-ban-frCon">
+						<div class="in-ban-frCon-text1 clearfix">
+							
+						</div>
+						<div class="in-ban-frCon-text2 clearfix">
+							
+						</div>
+						<div class="in-ban-frCon-text3 clearfix">
+							
+						</div>
+					</div>
+					<div class="in-ban-frBot">
+						<ul class="clearfix">
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--图-->
+		<div class="in-images">
+			<div class="in-img w">
+				<a href="javascript:;">
+					<img src="images/in-img01.jpg" />
+				</a>
+			</div>
+		</div>
+		<!--强档推荐-->
+		<div class="in-strong-box floor-text">
+			<div class="in-strong w">
+				<div class="in-strong-title clearfix">
+					<h3>
+						强档<em>推荐</em>
+					</h3>
+					<div class="in-strong-title-btn clearfix">
+						<a href="javascript:;" class="in-strong-active"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+					</div>
+				</div>
+				<div class="in-strong-list">
+					<ul class="clearfix">
+						
+					</ul>
+					<a href="javascript:;" class="in-strong-btn"></a>
+				</div>
+			</div>	
+		</div>
+		<!--强推作品-->
+		<div class="in-strPush-box floor-text">
+			<div class="in-strPush w clearfix">
+				<!--左-->
+				<div class="in-strPush-fl">
+					<div class="in-strPushTop clearfix">
+						<h3>强推作品</h3>
+						<div class="in-strPushTop-class fl">
+							<a href="javascript:;" class="in-strPushTop-class-active">全部作品</a>
+							<a href="javascript:;">女生推荐</a>
+						</div>
+					</div>
+					<div class="in-strPushCon">
+						<div class="in-strPushCon-list in-strPushCon-list1">
+							<div class="in-strPushCon-btnBox">
+								<a href="javascript:;" class="in-strPushCon-btnF"><</a>
+								<span>1/3</span>
+								<a href="javascript:;" class="in-strPushCon-btnR">></a>
+							</div>
+							<ul>
+							</ul>
+						</div>
+						<div class="in-strPushCon-list in-strPushCon-list2">
+							<div class="in-strPushCon-btnBox">
+								<a href="javascript:;" class="in-strPushCon-btnF"><</a>
+								<span>1/3</span>
+								<a href="javascript:;" class="in-strPushCon-btnR">></a>
+							</div>
+							<ul>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--右-->
+				<div class="in-strPush-fr fr">
+					<div class="in-strPush-frTop">
+						<i></i>
+						<h2>畅销榜</h2>
+					</div>
+					<div class="in-strPush-frCon clearfix">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--连载表-->
+		<div class="in-seral-box floor-text">
+			<div class="in-seral w clearfix">
+				<!--左-->
+				<div class="in-seral-fl fl">
+					<div class="in-seralFl-title clearfix">
+						<h3>
+							连载表
+							<em>不追连载不是真爱</em>
+						</h3>
+						<div class="in-seralFl-week fr clearfix">
+							<a href="javascript:;" class="in-seralFl-week-active">周一</a>
+							<a href="javascript:;">周二</a>
+							<a href="javascript:;">周三</a>
+							<a href="javascript:;">周四</a>
+							<a href="javascript:;">周五</a>
+							<a href="javascript:;">周六</a>
+							<a href="javascript:;">周日</a>
+						</div>
+					</div>
+					<div class="in-seralFl-con clearfix">
+	
+					</div>
+				</div>
+				<!--右-->
+				<div class="in-seral-fr fr">
+					<div class="in-seral-fr-title">
+						<h3>
+							漫社活动
+							<em>活动天天有，快来勾搭吧</em>
+						</h3>
+					</div>
+					<div class="in-seral-fr-con">
+						<ul>
+							<li>
+								<a href="javascript:;">
+									<img src="images/in-seral36.jpg" />
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="images/in-seral37.jpg" />
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="images/in-seral38.jpg" />
+								</a>
+							</li>
+						</ul>
+						<a href="javascript:;" class="in-seral-fr-btn in-seral-fr-btnL"></a>
+						<a href="javascript:;" class="in-seral-fr-btn in-seral-fr-btnR"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--五合一-->
+		<div class="in-and-box">
+			<div class="in-and w clearfix">
+				<ul class="clearfix">
+					<li>
+						<a href="javascript:;">
+							<img src="images/in-and01.jpg" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/in-and02.jpg" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/in-and03.jpg" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/in-and04.jpg" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/in-and05.jpg" />
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--签约作品-->
+		<div class="in-sign-box floor-text">
+			<div class="in-sign w clearfix">
+				<!--头-->
+				<div class="in-sign-title">
+					<h3>
+						签约<em>作品</em>
+					</h3>
+				</div>
+				<!--内容-->
+				<div class="in-signCon clearfix">
+					<a href="javascript:;" class="in-signCon-a"></a>
+				</div>
+			</div>
+		</div>
+		<!--轻小说-->
+		<div class="in-fic-box">
+			<div class="in-fic w clearfix">
+				<div class="in-fic-title">
+					<h3>轻小说</h3>
+				</div>
+				<div class="in-ficCon">
+					
+				</div>
+			</div>
+		</div>
+		<!--独家动画-->
+		<div class="in-exc-box floor-text">
+			<div class="in-exc w clearfix">
+				<div class="in-exc-titile">
+					<h3>独家<em>动画</em></h3>
+				</div>
+				<!--内容-->
+				<div class="in-excCon clearfix">
+					<div class="in-excCon-fl">
+						
+					</div>
+					<div class="in-excCon-fr clearfix">
+						<div class="in-excCon-fr-list clearfix">
+							
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<!--上升最快-->
+		<div class="in-quick-box floor-text">
+			<div class="in-quick w clearfix">
+				<!--左-->
+				<div class="in-quick-fl">
+					<div class="in-quick-fl-titile clearfix">
+						<h3>上升<em>最快</em></h3>
+						<div class="in-quick-opt clearfix">
+							<a href="javascript:;" class="in-quick-btnL in-quick-btn"></a>
+							<a href="javascript:;" class="in-quick-text in-quick-text-active">1-10</a>
+							<a href="javascript:;" class="in-quick-text">11-20</a>
+							<a href="javascript:;" class="in-quick-text">21-30</a>
+							<a href="javascript:;" class="in-quick-btnR in-quick-btn"></a>
+						</div>
+					</div>
+					<div class="in-quick-con">
+						<ul>
+							
+						</ul>
+					</div>
+				</div>
+				<!--右-->
+				<div class="in-quick-fr">
+					<div class="in-quick-fr-titile clearfix">
+						<h3>月票排行榜</h3>
+					</div>
+					<div class="in-quick-fr-con">
+						<div class="in-quick-fr-con-title clearfix">
+							<h4>本期排名（持续变更中）</h4>
+							<div class="in-quick-fr-con-title-text clearfix">
+								<a href="javascript:;" class="in-quick-fr-con-title-text-active">1-15</a>
+								<a href="javascript:;">16-30</a>
+								<a href="javascript:;">31-45</a>
+							</div>
+						</div>
+						<div class="in-quick-fr-list">
+							<span class="in-quick-ran"></span>
+							<p class="in-quick-fr-list-p">
+								<span>实时排名</span>
+								<span>作品名称</span>
+								<span>作者</span>
+								<span>此时月票</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--漫画棒-->
+		<div class="in-cartoon-box floor-text">
+			<div class="in-cartoon w clearfix">
+				<!--左边-->
+				<div class="in-cartoonFl">
+					<!--少年漫画-->
+					<div class="in-cartoonFl-man">
+						<div class="in-cartoonFl-man-title clearfix">
+							<h3>少年<em>漫画</em></h3>
+							<a href="javascript:;">更多</a>
+							<a href="javascript:;"><i></i>少年榜</a>
+						</div>
+						<ul class="clearfix in-cartoonFl-ul">
+						</ul>
+					</div>
+					<!--少女漫画-->
+					<div class="in-cartoonFl-wo">
+						<div class="in-cartoonFl-man-title clearfix">
+							<h3>少女<em>漫画</em></h3>
+							<a href="javascript:;">更多</a>
+							<a href="javascript:;"><i></i>少女榜</a>
+						</div>
+						<ul class="clearfix in-cartoonFl-ul">
+						</ul>
+					</div>
+					<!--分类-->
+					<div class="in-cartoonFl-clas">
+						<div class="in-cartoonFl-clas-title clearfix">
+							<div class="in-cartoonFl-clas-title-fl fl clearfix">
+								<a href="javascript:;" class="in-cartoonFl-clas-title-fl-active">热血·冒险</a>
+								<a href="javascript:;">搞笑·四格</a>
+								<a href="javascript:;">恐怖·异灵</a>
+								<a href="javascript:;">侦探·推理</a>
+							</div>
+							<a href="javascript:;">更多</a>
+							<a href="javascript:;"><i></i>恐怖灵异榜</a>
+						</div>
+						
+						<div class="in-cartoonFl-clas-text">
+							
+						</div>
+					</div>
+					<!--优秀绘本-->
+					<div class="in-cartoonFl-book">
+						<div class="in-cartoonFl-man-title clearfix">
+							<h3>优秀<em>绘本</em></h3>
+							<a href="javascript:;">更多</a>
+						</div>
+						<ul class="in-cartFl-book-ul clearfix">
+							<li>
+								<div class="in-cartFl-book-ul-text">
+									<a href="avascript:;" class="in-cartFl-book-ul-img">
+										<img src="images/in-cart-book01.png" />
+									</a>
+									<a href="javascript:;" class="in-cartFl-book-ul-bg">
+										<h5>毛毛猫</h5>
+										<h6>作者：尹戈</h6>
+										<p>简介：一肚子生活哲理的流浪猫</p>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="in-cartFl-book-ul-text">
+									<a href="avascript:;" class="in-cartFl-book-ul-img">
+										<img src="images/in-cart-book02.png" />
+									</a>
+									<a href="javascript:;" class="in-cartFl-book-ul-bg">
+										<h5>卷卷漫画</h5>
+										<h6>作者：姚文爽</h6>
+										<p>简介：有爱就有幸福</p>
+									</a>
+								</div>
+								<div class="in-cartFl-book-ul-text">
+									<a href="avascript:;" class="in-cartFl-book-ul-img">
+										<img src="images/in-cart-book03.png" />
+									</a>
+									<a href="javascript:;" class="in-cartFl-book-ul-bg">
+										<h5>执子之爪</h5>
+										<h6>作者：易书科技</h6>
+										<p>简介：小白羊爱上了狮子男</p>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="in-cartFl-book-ul-text">
+									<a href="avascript:;" class="in-cartFl-book-ul-img">
+										<img src="images/in-cart-book04.png" />
+									</a>
+									<a href="javascript:;" class="in-cartFl-book-ul-bg">
+										<h5>日常 日不常</h5>
+										<h6>作者：倔强的小画笔</h6>
+										<p>简介：贱贱的活着也不错~</p>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="in-cartFl-book-ul-text">
+									<a href="avascript:;" class="in-cartFl-book-ul-img">
+										<img src="images/in-cart-book05.png" />
+									</a>
+									<a href="javascript:;" class="in-cartFl-book-ul-bg">
+										<h5>和老妈的日常</h5>
+										<h6>作者：阿达</h6>
+										<p>简介：人这一生的浪漫和宠溺，记得分给母亲一份。</p>
+									</a>
+								</div>
+								<div class="in-cartFl-book-ul-text">
+									<a href="avascript:;" class="in-cartFl-book-ul-img">
+										<img src="images/in-cart-book06.png" />
+									</a>
+									<a href="javascript:;" class="in-cartFl-book-ul-bg">
+										<h5>萤光精灵</h5>
+										<h6>作者：小女</h6>
+										<p>简介：森林里住着一群会发光的精灵，人们称之为萤光精灵</p>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!--最近更新-->
+					<div class="in-cartoonFl-update">
+						<div class="in-cartoonFl-update-titile clearfix">
+							<h3>最近<em>更新</em></h3>
+							<div class="in-cartoon-btn clearfix">
+								<a href="javascript:;" class="in-quick-btnL in-quick-btn"></a>
+								<a href="javascript:;" class="in-cart-text in-cart-text-active">1-15</a>
+								<a href="javascript:;" class="in-cart-text">16-30</a>
+								<a href="javascript:;" class="in-cart-text">30-45</a>
+								<a href="javascript:;" class="in-quick-btnR in-quick-btn"></a>
+							</div>
+						</div>
+						<div class="in-cartoonFl-update-text">
+							
+						</div>
+					</div>
+				</div>
+				<!--右边-->
+				<div class="in-cartoonFR">
+					<!--打赏大豪-->
+					<div class="in-cartoonFR-text1">
+						<div class="in-cartoonFR-text1-tit clearfix">
+							<h2>打赏大豪</h2>
+							<a href="javascript:;">全部榜单</a>
+						</div>
+						<p class="in-cartoonFR-text1-p clearfix">
+							<span>排名</span>
+							<span>昵称</span>
+							<span>累计打赏（点券）</span>
+						</p>
+						<ul class="in-cartoonFR-text1-ul">
+							
+						</ul>
+					</div>
+					<!--月票榜贡献榜-->
+					<div class="in-cartoonFR-text2">
+						<div class="in-cartoonFR-text1-tit clearfix">
+							<h2>月票榜贡献榜</h2>
+							<a href="javascript:;">更多</a>
+						</div>
+						<p class="in-cartoonFR-text1-p clearfix">
+							<span>排名</span>
+							<span>昵称</span>
+							<span>累计投放月票</span>
+						</p>
+						<ul class="in-cartoonFR-text1-ul">
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--周总排行榜-->
+		<div class="in-rank-box floor-text">
+			<div class="in-rank w clearfix">
+				<div class="in-rank-tit">
+					<h3>周总排行榜TOP70</h3>
+				</div>
+				<div class="in-rank-con clearfix">
+					<!--左-->
+					<div class="in-rank-btn">
+						<a href="javascript:;" class="in-rank-btn-active">全部漫画</a>
+						<a href="javascript:;">少年漫画</a>
+						<a href="javascript:;">少女漫画</a>
+						<a href="javascript:;">热血冒险</a>
+						<a href="javascript:;">搞笑四格</a>
+						<a href="javascript:;">恐怖异灵</a>
+						<a href="javascript:;">侦探推理</a>
+					</div>
+					<!--右-->
+					<div class="in-rankFR clearfix">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--图-->
+		<div class="in-images">
+			<div class="in-img w">
+				<a href="javascript:;">
+					<img src="images/in-img01.jpg" />
+				</a>
+			</div>
+		</div>	
+		<!--福利社-->
+		<div class="in-wel-box floor-text">
+			<div class="in-wel w clearfix">
+				<div class="in-cartoonFl-man-title clearfix">
+					<h3>鹅娘福利社<em>每天都有好福利，Q币手办送送送</em></h3>
+					<a href="javascript:;">更多</a>
+				</div>
+				<div class="in-wel-con clearfix">
+					<ul class="in-wel-con-text1">
+						<li>
+							<a href="javascript:;" class="in-wel-con-text1-tit clearfix">
+								<span><img src="images/in-wel01.jpg"/></span>
+								<span>腾讯动漫企鹅娘</span>
+							</a>
+							<div class="in-wel-con-text1-con clearfix">
+								<div class="in-wel-con-text1-con-img">
+									<img src="images/in-wel02.jpg" />
+								</div>
+								<div class="in-wel-con-text1-con1">
+									<p>嗷～光棍节の寻找单身狗！大家都能在下图中找到多少只单身狗？答对既有奖励！先到先得哦[:b鼓掌:]活动时间11月10~12号 宝宝们加油！</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;" class="in-wel-con-text1-tit clearfix">
+								<span><img src="images/in-wel01.jpg"/></span>
+								<span>腾讯动漫普林斯</span>
+							</a>
+							<div class="in-wel-con-text1-con clearfix">
+								<div class="in-wel-con-text1-con-img">
+									<img src="images/in-wel02.jpg" />
+								</div>
+								<div class="in-wel-con-text1-con1">
+									<p>哈喽，自从大神社区上线之后，大家都很积极参与互动，普林斯真的很感动！[:b害羞:]以后普林斯会在每周日给大家送上这一周的“神评论集合”！大家都可以看看这周上榜的神评论到底有多“神”呢？（我才不会告诉你们这些神评论都是企鹅娘手动选的哼！）</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<!---->
+					<ul class="in-wel-con-text2">
+						<li>
+							<a href="javascript:;">
+								<p>【单选】娱乐无极限</p>
+								<p>哦咯加油加油啊啊啊</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<p>动漫中的七彩发色之绿</p>
+								<p>绿是属于大自然的颜色，也是然界中常见的颜色，它是种很特别的颜色，既不属于冷色调，也不属于暖色调，刚刚好居于两者之中，绿色代表着清新、希望、和平和生命力旺盛，能给人安全、平静和相当舒适的感觉，想当然的，拥有着这种发色的人肯定也具备着这样的属性。萌萌哒的初音就不用说了，用歌声温暖着整个二次元。CC是魔女，但是他的出现却给鲁路修带来了希望，进一步的想，其实也给当时的11区带来了希望。兰卡·李，她的人就像她的歌声一下，清新的如同拂面的春风，带着点点治愈的味道，曾几度用歌声保护了大家。索隆，绿藻头，也许你们要说他一点也不清新也不可爱，但是大家绝对不要忽略，索隆他绝对是生命力旺盛的代名词！其他就不一一说明了，请看图吧~</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<p>那些攻受自如的少年们</p>
+								<p>哦咯加油加油啊啊啊</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<p>动漫中的七彩发色之黄</p>
+								<p>哦咯加油加油啊啊啊</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<p>动漫中的七彩发色之橙</p>
+								<p>哦咯加油加油啊啊啊</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="in-bottom-box">
+			<!--波纹-->
+			<div class="in-bottom-bg"></div>
+			<div class="in-bottom w clearfix">
+				<ul class="clearfix in-bottom-ul">
+					<li>
+						<img src="images/in-bottom01.jpg" />
+						<p>腾讯动漫客户端</p>
+					</li>
+					<li>
+						<img src="images/in-bottom02.jpg" />
+						<p>腾讯动漫微信</p>
+					</li>
+				</ul>
+				<p class="in-bottom-text1 clearfix">
+					<a href="javascript:;">网站地图</a>
+					<a href="javascript:;">站内帮助</a>
+					<a href="javascript:;">反馈通道</a>
+					<a href="javascript:;">官方微博</a>
+					<a href="javascript:;">邮箱推荐</a>
+					<a href="javascript:;">服务协议</a>
+					<a href="javascript:;">侵权反馈指引</a>
+					<a href="javascript:;">联系方式：ac_copyright@qq.com</a>
+				</p>
+				<p class="in-bottom-text1 clearfix">
+					<span>Copyright©1998 - 2017 Tencent. All Rights Reserved</span>
+				</p>
+				<p class="in-bottom-text1 clearfix">
+					<span>腾讯公司 版权所有</span>
+				</p>
+			</div>
+		</div>	
+		<!--左侧楼梯-->
+		<div class="in-floor-box">
+			<ul>
+				<li>
+					<a href="javascript:;">强档推荐</a>
+				</li>
+				<li>
+					<a href="javascript:;">强推作品</a>
+				</li>
+				<li>
+					<a href="javascript:;">连载漫画</a>
+				</li>
+				<li>
+					<a href="javascript:;">签约作品</a>
+				</li>
+				<li>
+					<a href="javascript:;">独家动画</a>
+				</li>
+				<li>
+					<a href="javascript:;">上升最快</a>
+				</li>
+				<li>
+					<a href="javascript:;">分类漫画</a>
+				</li>
+				<li>
+					<a href="javascript:;">总排行榜</a>
+				</li>
+				<li>
+					<a href="javascript:;">鹅娘福利</a>
+				</li>
+			</ul>
+		</div>
+		<!--隐藏导航-->
+		<div class="in-hideNav-box">
+			<div class="in-hideNav w clearfix">
+				<ul class="clearfix">
+					<li>
+						<a href="javascript:;" class="in-hideNav-active">首页</a>
+					</li>
+					<li>
+						<a href="manga.html" target="_blank">日漫</a>
+					</li>
+					<li>
+						<a href="fiction.html">轻小说</a>
+					</li>
+					<li>
+						<a href="javascript:;">福利社</a>
+					</li>
+					<li>
+						<a href="javascript:;">资讯</a>
+					</li>
+					<li>
+						<a href="ranking.html">排行榜</a>
+					</li>
+				</ul>
+				<div class="in-hideNav-input">
+					<input type="text" placeholder="请输入作品名称"/>
+					<button></button>
+				</div>
+			</div>
+		</div>
+		<script>
+		var nav=$(".in-hideNav-box").offset().top;
+		var ban=$(".in-strong-box").offset().top;
+		$(document).scroll(function(){
+			var t=$(this).scrollTop();
+			if(t>=ban){
+				$(".in-hideNav-box").show();
+			}else{
+				$(".in-hideNav-box").hide();
+			}
+
+		});
+		</script>
+	</body>
+</html>

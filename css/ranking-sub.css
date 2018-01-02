@@ -1,0 +1,86 @@
+.ranking-sub-list {
+	width: 1034px;
+	border: 1px solid #dad8d4;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	background-color: #FFFFFF;
+}
+
+.ranking-sub-list-tit {
+	position: relative;
+	padding: 0 13px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #ecebe9;
+	overflow: hidden;
+}
+
+.ranking-sub-list-tit>a {
+	display: block;
+	float: left;
+	margin-top: 13px;
+	padding-left: 12px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 24px;
+	color: black;
+	border-left: 5px solid #ff9a6a;
+}
+.ranking-sub-list-tit h4{
+	float: right;
+	font-weight: normal;
+}
+.ranking-sub-list-tit h4 a{
+	display: block;
+	float: left;
+	padding:0 10px;
+	height: 50px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+.ranking-sub-list-tit-active{
+	font-weight: bold;
+	border-bottom: 5px solid #ff9a6a;
+}
+.ranking-sub-list-con-list{
+	display: none;
+}
+.ranking-sub-list-con-list:first-child{
+	display: block;
+}
+.ranking-sub-list-con-list {
+	padding: 20px 0;
+}
+
+.ranking-sub-list-con-list ul {
+	float: left;
+	padding: 0 14px;
+	width: 175px;
+	border-right: 1px dashed #ccc;
+}
+
+.ranking-sub-list-con-list ul:last-child {
+	border: 0;
+}
+
+.ranking-sub-list-con-list li {
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+.ranking-sub-list-con-list li sub {
+	display: block;
+	float: left;
+	margin: 8px 8px 0 0;
+	width: 20px;
+	height: 17px;
+	line-height: 17px;
+	border: 1px solid #e5e5e5;
+	background-color: white;
+	text-align: center;
+}
+
+.ranking-sub-list-con-list li a {
+	display: block;
+	float: left;
+}

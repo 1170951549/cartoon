@@ -1,0 +1,157 @@
+/*导航*/
+.man-nav-box{
+	position: relative;
+	/*margin-bottom: 25px;*/
+	height: 56px;
+	background-color: white;
+}
+.man-nav-log{
+	float: left;
+	width: 130px;
+    height: 52px;
+}
+.man-nav-log a{
+	display: block;
+	width: 110px;
+    height: 52px;
+    background: url(../images/ac_global.png)no-repeat 0 -337px;
+}
+
+.man-nav-ul li{
+	float: left;
+}
+.man-nav-ul li a{
+	display: block;
+	padding: 0 20px;
+	line-height: 52px;
+	font-size: 14px;
+}
+.man-nav-active{
+	color: #fff !important;
+    background-color: #fa9144;
+}
+/*.man-nav-bg{
+	position: absolute;
+	bottom: -12px;
+	width: 100%;
+	height: 16px;
+	background: url(../images/page_rank_sprite.png)repeat-x;
+}*/
+/*内容*/
+.person-con-box{
+	position: relative;
+	height: 714px;
+	background: url(../images/bg_maker_wrap.jpg)no-repeat 50% top;
+	overflow: hidden;
+}
+.person-con{
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	height: 714px;
+	background: url(../images/bg_maker.jpg)no-repeat;
+}
+
+.person-con-auth-span1{
+	position: absolute;
+	top: 130px;
+	left: 55px;
+	width: 456px;
+	height: 152px;
+	background: url(../images/ico_leaf.png)no-repeat;
+}
+.person-con-auth-span2{
+	position: absolute;
+	top: 56px;
+	left: -26px;
+	width: 400px;
+	height: 74px;
+	background: url(../images/ft_masker.png)no-repeat;
+}
+.person-con-auth-span3{
+	position: absolute;
+	top: -7px;
+	left: 422px;
+	width: 216px;
+	height: 182px;
+	background: url(../images/ico_hot.png)no-repeat;
+	animation: span3 6s infinite linear;
+}
+@keyframes span3{
+	0%{
+		transform: rotateZ(0deg);
+	}
+	20%{
+		transform: rotateZ(4deg);
+	}
+	40%{
+		transform: rotateZ(2deg);
+	}
+	60%{
+		transform: rotateZ(0deg);
+	}
+	80%{
+		transform: rotateZ(-2deg);
+	}
+	100%{
+		transform: rotateZ(-4deg);
+	}
+}
+/*底部*/
+.in-bottom-box{
+	position: relative;
+/*	margin-top: 35px;*/
+	padding-top: 35px;
+	background-color: #f69057;
+}
+.in-bottom-bg{
+	position: absolute;
+	width: 100%;
+	height: 10px;
+	top: -10px;
+	left: 0;
+	background: url(../images/ac_global.png)repeat-x 0 -703px;
+}
+.in-bottom{
+	height: 215px;
+	background: url(../images/ac_footer_bg.jpg)no-repeat 50% 0;
+}
+.in-bottom-ul{
+	width: 334px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.in-bottom-ul li{
+	float: left;
+	width: 98px;
+	text-align: center;
+	color: white;
+	padding: 0 34px
+}
+.in-bottom-ul li img{
+	width: 74px;
+    height: 74px;
+}
+.in-bottom-ul li p{
+	height: 40px;
+	line-height: 40px;
+}
+.in-bottom-text1{
+	line-height: 22px;
+	text-align: center;
+	color: white;
+}
+.in-bottom-text1 a{
+	line-height: 22px;
+	color: white;
+	margin: 0 5px;
+}
+.login-hz{
+	    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.6);
+
+}

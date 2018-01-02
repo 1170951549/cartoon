@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录注册</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" href="css/login.css" />
+	</head>
+	<body>
+		<div class="login-box">
+			<div class="login">
+				<div class="login-close clearfix">
+					<a href="javascript:;"></a>
+				</div>
+				<p class="login-tit">账号密码登录</p>
+				<div class="login-con">
+					<form>
+						<input type="text" placeholder="支持QQ号码/邮箱/手机号登录" class="login-user"/>
+						<input type="password" placeholder="密码"  class="login-pwd"/>
+						<input type="button" value="登录" class="login-btn"/>
+					</form>
+				</div>
+				<div class="login-ul">
+					<a href="javascript:;">忘记密码</a>
+					<a href="javascript:;">注册账号</a>
+					<a href="javascript:;">意见反馈</a>
+				</div>
+			</div>
+		</div>
+		<!--<div class="login-bg"></div>-->
+	</body>
+	<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+	<script src="js/login.js"></script>
+	<script>
+		$(".login-close a").on("click",function(){
+			$(".login-box").hide();
+			$(".login-hz").hide();
+		})
+	</script>
+</html>

@@ -1,0 +1,392 @@
+/*导航*/
+.man-nav-box{
+	position: relative;
+	margin-bottom: 25px;
+	height: 56px;
+	background-color: white;
+}
+.man-nav-log{
+	float: left;
+	width: 130px;
+    height: 52px;
+}
+.man-nav-log a{
+	display: block;
+	width: 110px;
+    height: 52px;
+    background: url(../images/ac_global.png)no-repeat 0 -337px;
+}
+
+.man-nav-ul li{
+	float: left;
+}
+.man-nav-ul li a{
+	display: block;
+	padding: 0 20px;
+	line-height: 52px;
+	font-size: 14px;
+}
+.man-nav-active{
+	color: #fff !important;
+    background-color: #fa9144;
+}
+.man-nav-bg{
+	position: absolute;
+	bottom: -12px;
+	width: 100%;
+	height: 16px;
+	background: url(../images/page_rank_sprite.png)repeat-x;
+}
+/*轮播*/
+
+/*内容*/
+.fiction-conFl{
+	float: left;
+	width: 758px;
+	overflow: hidden;
+}
+.hover-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0;
+}
+/*最近更新*/
+.fiction-update-head {
+	overflow: hidden;
+}
+.fiction-update-head h2{
+	float: left;
+	font-size: 25px;
+	font-weight: normal;
+}
+.fiction-update-head-btn,.fiction-upList-head-btn{
+	float: right;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.fiction-update-head-btn a,.fiction-upList-head-btn a{
+	display: block;
+	float: left;
+	width: 44px;
+	height: 22px;
+	line-height: 22px;
+	margin-left: 1px;
+	background-color: #f0efee;
+	color: #666666;
+	text-align: center;
+}
+.fiction-update-head-btn-active,.fiction-upList-head-btn-active{
+	color: white !important;
+	background-color: #484848 !important;
+	font-weight: bold;
+}
+.fiction-update-list{
+	height: 570px;
+}
+.fiction-update-list ul{
+	display: none;
+	width: 780px;
+}
+.fiction-update-list ul:nth-of-type(1){
+	display: block;
+}
+.fiction-update-list li,.fiction-classify-con li{
+	float: left;
+	width: 136px;
+	margin: 15px 19px 10px 0;
+}
+.fiction-update-list-img,.fiction-classify-con-img{
+	position: relative;
+	display: block;
+	width: 133px;
+	height: 177px;
+	border: 1px solid #bebebe;
+	background-color: #fff;
+}
+.fiction-update-list-img img,.fiction-classify-con-img img{
+	width: 133px;
+    height: 177px;
+}
+.fiction-update-list-span,.fiction-classify-con-up{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 22px;
+	line-height: 22px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	bottom: 0;
+	left: 0;
+	text-align: right;
+}
+.fiction-update-list li h5,.fiction-update-list li p,.fiction-classify-con h5,.fiction-classify-con p{
+	height: 20px;
+	line-height: 20px;
+	font-weight: normal;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.fiction-update-list li h5,.fiction-classify-con h5{
+	font-size: 14px;
+}
+.fiction-update-list li p,.fiction-classify-con p{
+	color: #999;
+}
+.fiction-update-list li p a{
+	margin-right: 5px;
+	color: #999;
+}
+.fiction-advertising{
+	height: 90px;
+}
+.fiction-title{
+	margin: 20px 0;
+	background: url(../images/vipsline.gif)repeat-x 0 20px;
+}
+.fiction-title h2,.fiction-upList-head h2{
+	float: left;
+	font-size: 26px;
+	font-weight: normal;
+	background: url(../images/light_bg.jpg);
+}
+.fiction-title h2 em,.fiction-upList-head h2 em{
+	color: #ad2500;
+	font-size: 20px;
+}
+/*classify-tit*/
+.fiction-classify-tit{
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 40px;
+	color: #333;
+	border-bottom: 2px solid #494949;
+}
+.fiction-classify-tit h2{
+	float: left;
+	border-bottom: 3px solid #3f3f3f;
+	font-size: 22px;
+	font-weight: normal;
+}
+.fiction-classify-tit a{
+	display: block;
+	float: right;
+}
+.fiction-classify-con{
+	width: 780px;
+}
+/*更新列表*/
+.fiction-upList-con{
+	height: 370px;
+	border: 1px solid #cfc8be;
+	background-color: white;
+}
+.fiction-upList-head{
+	margin: 25px 0 10px 0;
+}
+.fiction-upList-con ul{
+	height: 370px;
+	display: none;
+}
+.fiction-upList-con ul:nth-of-type(1){
+	display: block;
+}
+.fiction-upList-con ul li{
+	padding: 0 30px;
+	height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #ededed;
+    overflow: hidden;
+}
+.fiction-upList-con-text1{
+	float: left;
+	width: 390px;
+}
+.fiction-upList-con-text1>a:nth-of-type(1){
+	font-weight: bold;
+	color: black;
+	padding: 0 5px;
+}
+.fiction-upList-con-text2{
+	float: right;
+	width: 305px;
+}
+.fiction-upList-con-text2 span{
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+}
+.fiction-upList-con-text2 span:nth-of-type(1){
+	float: left;
+	width: 150px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.fiction-upList-con-text2 span:nth-of-type(2){
+	width: 125px;
+	float: right;
+	text-align: right;
+}
+/*右边*/
+.fiction-conFr{
+	float: right;
+	width: 354px;
+}
+.fiction-conFr-list{
+	width: 345px;
+	height: 520px;
+	margin-bottom: 20px;
+	background-color: white;
+	border: 1px solid #dedede;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+.fiction-conFr-list-head{
+	height: 58px;
+	padding: 0 12px;
+	border-bottom: 1px solid #dedede;
+}
+.fiction-conFr-list-head h3{
+	float: left;
+	margin-top: 17px;
+	padding-left: 30px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 22px;
+	font-weight: normal;
+	background: url(../images/light_all.png)no-repeat 0 -100px;
+}
+.fiction-conFr-list-head2 h3{
+	background-position: 0 -124px;
+}
+.fiction-conFr-list-head3 h3{
+	background-position: 0 -148px;
+}
+.fiction-conFr-list-head4 h3{
+	background-position: 0 -172px;
+}
+.fiction-conFr-list-con{
+/*	height: 424px;*/
+	padding: 20px 20px 25px 20px;
+}
+.fiction-conFr-list-con li{
+	position: relative;
+	height: 34px;
+	line-height: 34px;
+	border-bottom: 1px dashed #e5e5e5;
+	margin-bottom: 2px;
+	/*overflow: hidden;*/
+}
+.fiction-conFr-list-con li.active{
+	height: 106px;
+	padding-top: 3px;
+}
+.fiction-conFr-list-con li>em{
+	display: block;
+	float: left;
+	margin: 10px 10px 0 0;
+	width: 15px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.fiction-conFr-list-con li>a{
+	display: block;
+	float: left;
+}
+.fiction-conFr-list-con li>span{
+	display: block;
+	float: right;
+	
+}
+.fiction-conFr-list-con li.active> .fiction-conFr-list-con-text{
+	display: block;
+}
+.fiction-conFr-list-con-text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background-color: white;
+	overflow: hidden;
+	padding-bottom: 3px;
+}
+
+.fiction-conFr-list-con-text>a{
+	display: block;
+	float: left;
+	width: 78px;
+    height: 104px;
+    border: 1px solid #bebebe;
+}
+.fiction-conFr-list-con-text>a img{
+	width: 78px;
+    height: 104px;
+}
+.fiction-conFr-list-con-text-fr{
+	float: left;
+	width: 215px;
+    height: 104px;
+    padding-left: 10px;
+}
+.fiction-conFr-list-con-text-fr p:nth-of-type(1){
+	line-height: 16px;
+	padding-bottom: 10px;
+}
+.fiction-conFr-list-con-text-fr p:nth-of-type(1) a{
+	font-size: 16px;
+
+}
+.fiction-conFr-list-con-text-fr p:nth-of-type(2){
+	line-height: 20px;
+	height: 42px;
+}
+.fiction-conFr-list-con-text-fr span{
+	display: block;
+	float: right;
+}
+.fictin-adv{
+	height: 90px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.fictin-adv img{
+	height: 90px;
+	width: 1195px;
+}
+/*底部*/
+.in-bottom-box{
+	position: relative;
+	padding-top: 70px;
+	background-color: #fa8729;
+}
+.in-bottom-bg{
+	position: absolute;
+	width: 100%;
+	height: 10px;
+	top: -10px;
+	left: 0;
+	background: url(../images/ac_global.png)repeat-x 0 -703px;
+}
+.in-bottom{
+	height: 150px;
+}
+.in-bottom-text1{
+	line-height: 22px;
+	text-align: center;
+	color: white;
+}
+.in-bottom-text1 a{
+	line-height: 22px;
+	color: white;
+	margin: 0 5px;
+}
